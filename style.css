@@ -14,7 +14,7 @@ body {
 
 header {
     background-image: url(img/banner\ secundario.png);
-    height: 200px;
+    height: 175px;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -70,15 +70,20 @@ article {
     flex: 3;
     padding: 20px;
     background-color: transparent;
-    border-radius: 8px;
+    border: solid;
+    border-radius: 65px;
+    border-width: 2px;
 }
 
 aside {
     color: lightgray;
     flex: 1;
     padding: 20px;
-    border-radius: 8px;
     background-color: transparent;
+    border: solid;
+    border-radius: 65px;
+    border-width: 2px;
+    line-height: 1;
 }
 
 a {
