@@ -5,11 +5,10 @@
 }
 
 body {
-    height: 100vh;
+    height: 100;
     background-image: url(img/Fondo\ web.png);
     background-size: cover;
-    background-position: center;
-    margin-top: 160px;
+    margin-top: 200px;
 }
 
 header {
@@ -96,4 +95,65 @@ a {
 
 a:hover {
     border-bottom: 2px solid white;
+}
+
+.galeria {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.archivo {
+    background: transparent;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+    flex: 1;
+}
+
+.archivo:hover {
+    transform: translateY(-5px);
+}
+
+.archivo iframe {
+    width: 100%;
+    height: 220px;
+    border: none;
+}
+
+.contenido {
+    padding: 15px;
+}
+
+.contenido h3 {
+    margin: 0 0 10px;
+    color: white;
+}
+
+.contenido p {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.boton {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #0078ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.boton:hover {
+    background: #005fcc;
+}
+
+.h1desc {
+    color: white;
 }
