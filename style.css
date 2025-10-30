@@ -7,7 +7,9 @@
 body {
     height: 100;
     background-image: url(img/Fondo\ web.png);
+    background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     margin-top: 200px;
 }
 
@@ -42,12 +44,10 @@ header {
 footer {
     background-color: #333333;
     color: whitesmoke;
-    height: 190px;
-    background-position: center;
+    height: 200px;
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 nav {
@@ -56,7 +56,7 @@ nav {
     margin-top: 10px;
 }
 
-main {
+.divcomp {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -68,20 +68,19 @@ article {
     color: lightgray;
     flex: 3;
     padding: 20px;
-    background-color: transparent;
-    border: solid;
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 65px;
-    border-width: 2px;
+    border-width: 0px;
 }
 
 aside {
     color: lightgray;
     flex: 1;
     padding: 20px;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.1);
     border: solid;
     border-radius: 65px;
-    border-width: 2px;
+    border-width: 0px;
     line-height: 1;
 }
 
