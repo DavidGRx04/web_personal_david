@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔥FIRE DEPARTMENT🔥</title>
+    <link rel="stylesheet" href="styleentrada.css">
+    <link rel="icon" href="img/Logo_SAFD.png">
+</head>
+<body>
+    <header>
+        <img src="img/Logo_SAFD.png" alt="imagensafd" width="16%">
+        <h1>San Andreas Fire Department</h1>
+        <div class="avatar-wrap" id="avatarWrap">
+            <div class="avatar-btn" id="avatarBtn">
+                <span class="avatar-initials" id="avatarInitials">??</span>
+            </div>
+            <div class="online-dot"></div>
+            <div class="dropdown" id="profileDropdown">
+                <div class="dp-header">
+                    <div class="dp-avatar-lg" id="dpAvatarLg">
+                        <span id="dpInitials">??</span>
+                    </div>
+                    <div>
+                        <div class="dp-name" id="dpName">—</div>
+                        <div class="dp-role" id="dpRole">—</div>
+                        <span class="dp-badge" id="dpBadge">Badge #—</span>
+                    </div>
+                </div>
+                <div class="dp-body">
+                    <div class="dp-row">
+                        <span class="dp-label">Nombre completo</span>
+                        <span class="dp-value" id="dpFullName">—</span>
+                    </div>
+                    <div class="dp-row">
+                        <span class="dp-label">Rango</span>
+                        <span class="dp-value" id="dpRango">—</span>
+                    </div>
+                    <div class="dp-row">
+                        <span class="dp-label">Número de badge</span>
+                        <span class="dp-value" id="dpBadgeNum">—</span>
+                    </div>
+                    <div class="dp-divider"></div>
+                    <a href="logout.php">
+                        <div class="dp-logout" id="logoutBtn">Cerrar sesión</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <img src="img/Logo_SAFD.png" alt="imagensafd" width="16%">
+        <div class="navegador">
+            <ul>
+                <li><a href="entrada.html">Inicio</a></li>
+                <li><a href="entrada2.html">Conocenos</a></li>
+                <li><a href="entrada3.html">Divisiones</a></li>
+                <li><a href="entrada4.html">Sobre Mí</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="norma">
+        <h3>INICIO</h3>
+    </div>
+    <article>
+        <div class="main-content">
+            <!-- Banner bienvenida -->
+            <div class="welcome-banner">
+                <div>
+                    <h2 id="welcomeName">Bienvenido</h2>
+                    <p id="welcomeRole">—</p>
+                </div>
+            </div>
+
+            <!-- Tarjeta perfil -->
+            <div class="perfil-card">
+                <div class="perfil-avatar" id="perfilAvatar">
+                    <span class="perfil-iniciales" id="perfilIniciales">??</span>
+                </div>
+                <div class="perfil-info">
+                    <h3 id="perfilNombre">—</h3>
+                    <span class="perfil-rango-badge" id="perfilRango">—</span>
+
+                    <div class="perfil-datos">
+                        <div class="perfil-dato">
+                            <span class="dato-label">Badge</span>
+                            <span class="dato-valor" id="perfilBadge">—</span>
+                        </div>
+                        <div class="perfil-dato">
+                            <span class="dato-label">Estación</span>
+                            <span class="dato-valor" id="perfilEstacion">—</span>
+                        </div>
+                        <div class="perfil-dato">
+                            <span class="dato-label">Nacionalidad</span>
+                            <span class="dato-valor" id="perfilNacionalidad">—</span>
+                        </div>
+                        <div class="perfil-dato">
+                            <span class="dato-label">Sexo</span>
+                            <span class="dato-valor" id="perfilSexo">—</span>
+                        </div>
+                    </div>
+
+                    <form action="subir_foto.php" method="POST" enctype="multipart/form-data">
+                        <label for="foto" class="btn-foto" style="cursor:pointer;">
+                            Cambiar foto de perfil
+                            <input type="file" id="foto" name="foto" accept="image/jpeg,image/png,image/webp" style="display:none;" onchange="this.form.submit()">
+                        </label>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </article>
+    <hr>
+    <div class="articulo1">
+        <div>
+            <div class="defsafd">
+                <img src="img/Logo_SAFD.png" alt="logosafd" width="10%">
+                <h1>SAN ANDREAS FIRE DEPARTMENT</h1>
+                <img src="img/Logo_SAFD.png" alt="logosafd" width="10%">
+            </div>
+            <div class="deftext">
+                <p>El San Antonio Fire Department (SAFD) es el organismo encargado de la gestión integral de emergencias en la ciudad de , cuya misión es proteger vidas, bienes y el entorno. Proporciona servicios de extinción de incendios, atención médica de emergencia, rescate y prevención, operando con personal altamente capacitado, recursos especializados y protocolos estandarizados para garantizar una respuesta rápida y eficaz ante cualquier incidente.</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="galeriatitulo">
+        <h1>GALERIA</h1>
+    </div>
+    <div class="galeria">
+        <img src="img/Fondo_web_login.png" alt="Galeria1">
+        <img src="img/fondo_web_registro.png" alt="Galeria2">
+        <img src="img/Screenshot_514.png" alt="Galeria3">
+        <img src="img/image.present.png" alt="Galeria4">
+        <img src="img/back_entrada.png" alt="Galeria5">
+        <img src="img/4.png" alt="Galeria6">
+        <img src="img/5.png" alt="Galeria7">
+        <img src="img/6.png" alt="Galeria8">
+        <img src="img/7.png" alt="Galeria9">
+    </div>
+    <footer>
+        <div class="copyright">
+            <p>&copy; 2026 San Andreas Fire Department. David Gómez Romero.</p>
+        </div>
+    </footer>
+    <!--<script>
+        //const avatarBtn  = document.getElementById('avatarBtn');
+        //const dropdown   = document.getElementById('profileDropdown');
+        //const avatarWrap = document.getElementById('avatarWrap');
+
+        //avatarBtn.addEventListener('click', e => {
+        //    e.stopPropagation();
+        //    dropdown.classList.toggle('open');
+        //});
+
+        //document.addEventListener('click', e => {
+        //    if (!avatarWrap.contains(e.target)) dropdown.classList.remove('open');
+        //});
+
+        //function cargarPerfil(u) {
+        //    const iniciales      = (u.nombre[0] + u.apellidos[0]).toUpperCase();
+        //    const nombreCompleto = u.nombre + ' ' + u.apellidos;
+        //    const sexoTexto      = u.sexo === 'H' ? 'Hombre' : 'Mujer';
+
+        //    document.getElementById('avatarInitials').textContent  = iniciales;
+        //    document.getElementById('dpInitials').textContent      = iniciales;
+        //    document.getElementById('dpName').textContent          = u.nombre;
+        //    document.getElementById('dpRole').textContent          = u.rango + ' — ' + (u.estacion || '');
+        //    document.getElementById('dpBadge').textContent         = 'Badge #' + u.badge;
+        //    document.getElementById('dpFullName').textContent      = nombreCompleto;
+        //    document.getElementById('dpRango').textContent         = u.rango;
+        //    document.getElementById('dpBadgeNum').textContent      = '#' + u.badge;
+        //    document.getElementById('welcomeName').textContent     = 'Bienvenido, ' + u.nombre;
+        //    document.getElementById('welcomeRole').textContent     = u.rango + ' · ' + (u.estacion || 'Sin estación asignada');
+        //    document.getElementById('perfilNombre').textContent    = nombreCompleto;
+        //    document.getElementById('perfilRango').textContent     = u.rango;
+        //    document.getElementById('perfilBadge').textContent     = '#' + u.badge;
+        //    document.getElementById('perfilEstacion').textContent  = u.estacion || '—';
+        //    document.getElementById('perfilNacionalidad').textContent = u.nacionalidad || '—';
+        //    document.getElementById('perfilSexo').textContent      = sexoTexto;
+        //    document.getElementById('perfilIniciales').textContent = iniciales;
+        
+        //    if (u.foto_url) {
+        //        document.getElementById('avatarBtn').innerHTML    = `<img src="${u.foto_url}" alt="avatar">`;
+        //        document.getElementById('dpAvatarLg').innerHTML   = `<img src="${u.foto_url}" alt="avatar">`;
+        //        document.getElementById('perfilAvatar').innerHTML = `<img src="${u.foto_url}" alt="foto perfil">`;
+        //    }
+        //}
+
+        //fetch('perfil_datos.php')
+        //    .then(res => res.json())
+        //    .then(data => {
+        //        if (data.error === 'no_session') {
+        //            window.location.href = 'index.html';
+        //            return;
+        //        }
+        //        cargarPerfil(data);
+        //    })
+        //    .catch(() => {
+        //        window.location.href = 'index.html';
+        //    });
+    </script> -->
+</body>
+</html>
