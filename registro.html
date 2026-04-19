@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIRE DEPARTMENT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="video-bg">
+        <video autoplay muted loop playsinline>
+            <source src="img/copy_E4CB34AB-2452-41B5-BA5B-160E05AFAD21.mov" type="video/mp4" id="bg-video">
+        </video>
+    </div>
+    <div class="lado1">
+        <div class="encuadre">
+        <h2>Crear cuenta</h2>
+        <form action="registrar.php" method="POST">
+            <input type="text" name="nombre" placeholder="Nombre" required><br><br>
+            <input type="text" name="apellidos" placeholder="Apellidos" required><br><br>
+            <input type="text" name="nacionalidad" placeholder="Nacionalidad" required><br><br>
+
+            <label>Sexo:</label><br>
+            <select name="sexo" required>
+                <option value="">-- Selecciona --</option>
+                <option value="H">Hombre</option>
+                <option value="M">Mujer</option>
+            </select><br><br>
+
+            <input type="text" name="usuario" placeholder="Usuario" required><br><br>
+            <input type="password" name="contraseña" placeholder="Contraseña" required><br><br>
+
+            <input type="text" name="badge" placeholder="Número de badge (ej: 4821)" required><br><br>
+            <input type="text" name="estacion" placeholder="Estación (ej: Estación 7)"><br><br>
+
+            <label>Rango:</label><br>
+            <select name="rango">
+                <option value="Bombero">Bombero</option>
+                <option value="Cabo">Cabo</option>
+                <option value="Sargento">Sargento</option>
+                <option value="Teniente">Teniente</option>
+                <option value="Capitán">Capitán</option>
+            </select><br><br>
+
+            <button type="submit">Registrar</button>
+        </form>
+        </div>
+        <footer>
+            <p>¿Ya tienes cuenta?</p>
+            <a href="index.html">
+            <button>Volver al login</button>
+            </a>
+        </footer>
+        <div class="copyright">
+        <p>&copy; 2026 San Andreas Fire Department. David Gómez Romero.</p>
+        </div>
+    </div>
+    <div class="lado2">
+        <h1>
+
+        </h1>
+    </div>
+</body>
+</html>
